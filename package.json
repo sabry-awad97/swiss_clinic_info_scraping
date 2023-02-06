@@ -1,0 +1,19 @@
+{
+  "name": "swiss_clinic_info_scraping",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "author": "Sabry Awad <dr.sabry1997@gmail.com>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node --transpile-only main.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.19",
+    "axios": "^1.3.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fast-csv": "^4.3.6",
+    "p-limit": "^4.0.0",
+    "winston": "^3.8.2"
+  }
+}
